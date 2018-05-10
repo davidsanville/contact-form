@@ -4,7 +4,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./App.js";
 import ContactForm from "./Form.js";
+import Calculator from "./Calculator.js"
+
 ReactDOM.render(
-  <ContactForm/>,
+  <Calculator/>,
   document.getElementById('root')
 );

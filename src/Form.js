@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-
 import { Form, Text, Radio, RadioGroup, TextArea, Checkbox } from 'react-form';
 import './Form.css';
 
 //add form state handling
-
+//event handle
 
 const ContactForm = () => (
   <Form render={({
@@ -20,3 +19,10 @@ const ContactForm = () => (
 )
 
 export default ContactForm;
+
+
+
+//pseudo Code
+
+//query all tutors "profile list"
+  //filter zip code,
