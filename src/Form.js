@@ -5,6 +5,7 @@ import './Form.css';
 
 //add form state handling
 
+
 const ContactForm = () => (
   <Form render={({
     submitForm
